@@ -4,7 +4,19 @@ class miscpackages {
 	      'emacs23-nox',
               'arping',
               'tcpdump',
-              'netcat-traditional',]:
-      ensure => installed,
+              'telnet',
+              'traceroute',
+              'netcat-traditional',
+              'pciutils',
+              'usbutils',
+              'strace',
+              ]:
+                ensure => installed,
    }
+
+   package { ['mpt-status',
+              ]:
+                ensure => absent,
+   }
+                   
 }
