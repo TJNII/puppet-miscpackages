@@ -13,7 +13,9 @@ class miscpackages {
                 ensure => installed,
    }
 
+   # Packages that cause problems
    package { ['mpt-status',
+              'bash-completion',
               ]:
                 ensure => absent,
    }
