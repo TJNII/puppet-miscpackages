@@ -27,6 +27,8 @@ class miscpackages {
              'strace',
              'zip',
              'unzip',
+             'wget',
+             'nano',
              ]:
                ensure => installed,
   }
