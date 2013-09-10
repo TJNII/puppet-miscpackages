@@ -8,7 +8,7 @@ class miscpackages {
                    ensure => installed,
       }
     }
-    redhat, cent: {
+    redhat, centos: {
       package { ['bind-utils',
                  'iputils',
                  'nc',
@@ -25,6 +25,8 @@ class miscpackages {
              'pciutils',
              'usbutils',
              'strace',
+             'zip',
+             'unzip',
              ]:
                ensure => installed,
   }
