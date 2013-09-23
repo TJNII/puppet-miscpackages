@@ -29,6 +29,7 @@ class miscpackages {
              'unzip',
              'wget',
              'nano',
+             'ethtool',
              ]:
                ensure => installed,
   }
