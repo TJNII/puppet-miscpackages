@@ -30,6 +30,7 @@ class miscpackages {
              'wget',
              'nano',
              'ethtool',
+             'nmap',
              ]:
                ensure => installed,
   }
