@@ -55,5 +55,10 @@ class miscpackages {
              ]:
                ensure => purged,
   }
-  
+
+  # CVE responses
+  package { ['openssl', # CVE-2014-0160
+             ]:
+               ensure => latest
+  }
 }
