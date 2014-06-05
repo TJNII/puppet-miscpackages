@@ -45,6 +45,7 @@ class miscpackages {
              'nano',
              'ethtool',
              'nmap',
+             'lsscsi',
              ]:
                ensure => installed,
   }
