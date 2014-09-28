@@ -59,6 +59,7 @@ class miscpackages {
 
   # CVE responses
   package { ['openssl', # CVE-2014-0160
+             'bash', # CVE-2014-7169
              ]:
                ensure => latest
   }
